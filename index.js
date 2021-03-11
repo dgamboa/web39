@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 server.use('*', (req, res) => {
-  res.send('<h1>sucess</h1>')
+  res.send('<h1>success</h1>')
 })
 
 const PORT = process.env.PORT || 4000;
